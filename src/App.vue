@@ -1,12 +1,29 @@
 <template>
   <div id="app">
+    <TopMenu/>
     <router-view/>
   </div>
 </template>
 
 <script>
+import { Adaptation } from './util/utils.js'
+import TopMenu from './components/TopMenu.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+
+    }
+  },
+  components: {
+    TopMenu
+  },
+  created () {
+    Adaptation()
+    window.onresize = () => {
+      Adaptation()
+    }
+  }
 }
 </script>
 

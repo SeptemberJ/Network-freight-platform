@@ -10,6 +10,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 import '@/assets/iconfont/iconfont.css'
 import '../static/css/login.css'
 import '../static/css/main.css'
+import 'lib-flexible/flexible.js'
 import {send} from './util/send'
 
 Vue.prototype.send = send

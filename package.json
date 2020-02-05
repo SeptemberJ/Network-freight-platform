@@ -14,14 +14,15 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1",
     "axios": "^0.18.0",
     "crypto-js": "^3.1.9-1",
     "element-ui": "^2.10.0",
     "file-saver": "^2.0.2",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
+    "lib-flexible": "^0.3.2",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "vuex-persist": "^1.8.0",
     "xlsx": "^0.15.2"
@@ -80,6 +81,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
+    "px2rem-loader": "^0.1.9",
     "rimraf": "^2.6.0",
     "selenium-server": "^3.0.1",
     "semver": "^5.3.0",

@@ -1,18 +1,20 @@
 <!--  -->
 <template>
-  <div class=''>
-    index
+  <div class='Index'>
+    <Carousel/>
   </div>
 </template>
 
 <script>
 // import { mapState, mapActions } from 'vuex'
-
+import Carousel from '../components/Carousel.vue'
 export default {
-  components: {},
   data () {
     return {
     }
+  },
+  components: {
+    Carousel
   },
   computed: {},
   watch: {},
@@ -28,4 +30,6 @@ export default {
 </script>
 <style lang='less' scoped>
 // @import url()
+.Index{
+}
 </style>
